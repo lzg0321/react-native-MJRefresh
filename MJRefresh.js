@@ -11,7 +11,6 @@ import {
 } from 'react-native';
 import PropTypes from 'prop-types'
 import MJScrollView from './MJScrollView'
-import MJListView from './MJListView'
 import MJFlatlist from './MJFlatList'
 const ViewPropTypes = RNViewPropTypes || View.propTypes;
 const UnimplementedView = require('react-native/Libraries/Components/UnimplementedViews/UnimplementedView')
@@ -79,6 +78,5 @@ MJRefresh.propTypes={
     ...ViewPropTypes
 }
 export const ScrollView = MJScrollView;
-export const ListView = MJListView;
 export const FlatList = MJFlatlist;
 export default MJRefresh;
